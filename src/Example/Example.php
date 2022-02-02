@@ -7,8 +7,9 @@ class Example
         if (false) {
             return true;
         }
-
+        if (true){
+            echo "test";
+        }
         return false;
-        
     }
 }
